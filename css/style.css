@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*login*/
+.login-formbody{
+    width: 400px;
+    min-width: 300px;
+    border-radius:5px;
+    margin:auto;
+    margin-top:60px;
+    border:1px solid #fff;
+    justify-content: center;
+}
+.login-formbody img{
+    width: 150px;
+    display:block;
+    margin: 20px auto;
+}
+.text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:700;
+    color:white;
+    margin-bottom: 25px;
+}
+.login-formbody input{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 70%;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: transparent;
+    outline: none;
+}
+
+.login-formbody input[type="password"]{
+    margin-top: 20px;
+}
+::placeholder{
+    color: #fff;
+}
+
+.login-formbody input:hover{
+    transition: .5s;
+    border: 2px solid #df490e;
+    color:#df490e;
+}
+
+#boton{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height:40px;
+    width:70%;
+    background: transparent;
+    color:#fff;
+    border-radius: 2px;
+    cursor:pointer;
+    outline: none;
+    transition: all .5s ease;
+    border: 2px solid #df490e;
+}
+
+#boton:hover{
+    color:#fff;
+    border: 2px solid #df490e;
+    background:#df490ef1;
+}
+
+
+a{
+    color:white;
+}
+.nav-link{
+    font-weight: bold;
+}
+#navbarNav{
+    justify-content: flex-end; 
+    margin-right: 20px;
+}
+.dropdown-menu{
+    background-color:rgba(231, 143, 85, 0.637);
+    border: none;
+    text-align: left;
+}
+.dropdown-item{
+    font-weight: bold;
+}
+
+body{
+    background-image: url("/img/edificios.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+/*formulario*/
+
+h1,h2,h3,h4{
+    text-align: center;
+}
+fieldset{
+    padding: 10px;
+    border: none;
+}
+
+.table-bordered{
+    background-color:rgba(144, 148, 151, 0.918);
+    border-color:rgba(110, 113, 116, 0.918);
+}
+th,td{
+    text-align: center;
+}
+
+#agregar{
+    background-color:#f35416;
+}
+
+/*footer*/
+footer{
+    background-color: rgba(145, 145, 140, 0.39);
+    color: white;
+    text-align:center;
+    height: 15vh;
+    padding:20px;
+
+}
+.gh{
+    color: white;
+    margin: 30px;
+    padding: 0;
+    text-decoration: none;
+}
+p{
+    margin-top: 10px;
+}
